@@ -1,0 +1,403 @@
+.product-image{
+    width: 40%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.product-image ul{
+    padding: 0;
+    margin:  10px 0;
+}
+.product-image img{
+    width: 100%;
+}
+.product-image ul li{
+    width: 19%;
+    list-style: none;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+}
+.brand{
+    width: 60%;
+}
+.brand-content{
+    width: 100%;
+    display: flex;
+}
+.brand ul li{
+    list-style: none;
+    color: rgb(155, 155, 155);
+    font-size: 1.2rem;
+    display: inline-block;
+}
+.brand ul li:first-child{
+    padding-right: 3%;
+}
+.brand-header ul{
+    padding: 0;
+    margin: 0;
+}
+.brand-header ul li{
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+    font-size: 1.6rem;
+
+}
+.brand-header ul li:first-child{
+    width: 30%;
+    cursor: pointer;
+}
+.brand-header ul li:last-child{
+    width: 90%;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+.brand-header ul li i{
+    color: gold;
+}
+.brand .left{
+    display: block;
+    clear: both;
+    width: 65%;
+
+}
+.brand .left .price-and-icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: linear-gradient(100deg, rgb(255, 66, 78), rgb(253, 130, 10));
+    border-radius: 5px 5px 5px 5px;
+}
+.flash-sale-price{
+    display: block;
+    color: white;
+    font-size: 1.6rem;
+}
+.flash-sale-price span:first-child{
+    font-size: 4rem;
+}
+.flash-sale-price span:last-child{
+    text-decoration: line-through;
+}
+.coupon{
+    border-top: 1px solid rgb(242, 242, 242);
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.coupon__tag{
+    width: 23%;
+    cursor: pointer;
+    padding: 6px 12px;
+    border: 1px solid rgb(13, 92, 182);
+    border-radius: 4px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(13, 92, 182);
+    position: relative;
+    margin: 8px 12px 0px 0px;
+}
+.inner{
+    border-top: 1px solid rgb(242, 242, 242);
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+.QualityInput__Wrapper p{
+    border-top: 1px solid rgb(242, 242, 242);
+    padding-top: 20px;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+.group-input{
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+.group-input button:first-child {
+    border-right: none;
+    border-radius: 4px 0px 0px 4px;
+    padding: 4px;
+    border: 1px solid rgb(236, 236, 236);
+    outline: none;
+}
+.group-input input {
+    width: 40px;
+    height: 30px;
+    border: 1px solid rgb(236, 236, 236);
+    text-align: center;
+    outline: none;
+    font-size: 1.4rem;
+}
+.group-input button:last-child {
+    border-left: none;
+    border-radius: 0px 4px 4px 0px;
+    padding: 4px;
+    border: 1px solid rgb(236, 236, 236);
+    outline: none;
+}
+.yellow{
+    margin-top: 10px;
+    font-size: 1.4rem;
+    color: rgb(253, 130, 10);
+}
+.btn.btn-add-to-cart {
+    width: 100%;
+    height: 48px;
+    max-width: 300px;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 57, 69);
+}
+.coupon .images{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.coupon .images p{
+    margin: 0px 10px;
+    color: rgb(144, 144, 145);
+    font-size: 22px;
+    font-weight: 300;
+}
+.brand .right{
+    margin-left: 10px;
+    width: 35%;
+    height: 265px;
+    border-radius: 4px;
+    box-shadow: rgb(242, 242, 242) 1px 1px 0px 0px inset, rgb(242, 242, 242) -1px -1px 0px 0px inset;
+}
+.seller-description{
+    padding: 15px 10px;
+    font-size: 1.2rem;
+}
+.seller-icon-and-name{
+    display: flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+}
+.seller-icon-and-name img{
+    width: 30%;
+    display: flex;
+    padding-right: 5px;
+}
+.seller-icon-and-name span{
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 600;
+}
+.seller-icon-and-name .view-more{
+    color: rgb(13, 92, 182);
+}
+.warranty-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-top: 1px solid rgb(242, 242, 242);
+    font-size: 1.2rem;
+}
+.benefit-item{
+    display: flex;
+    padding: 15px 10px;
+    border-top: 1px solid rgb(242, 242, 242);
+}
+.benefit-item .compensation{
+    flex: 1 0 30%;
+    text-align: center;
+}
+.benefit-item .guarantee{
+    flex: 1 0 30%;
+    text-align: center;
+}
+.benefit-item .refund{
+    flex: 1 0 30%;
+    text-align: center;
+}
+.benefit-item img{
+    width: 30%;
+}
+/*  */
+.container-product{
+    background-color: #fff;
+}
+.container-product table tbody tr td{
+    font-size: 1.3rem;
+}
+.container-product ul.ToggleContent li{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 5px;
+}
+.container-product ul.ToggleContent h3{
+    margin: 30px 0;
+    font-weight: 600;
+}
+.container-product p{
+    overflow: hidden;
+    font-size: 1.3rem;
+    padding: 10px 30px;
+    color: rgb(68, 65, 65);
+}
+.container-product p img{
+    width: 100% !important;
+    height: auto !important;
+}
+.form-cmt{
+    display: flex;
+    padding: 20px;
+    flex: 1 1 0%;
+    display: inline-block;
+}
+.form-cmt input{
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+    font-size: 13px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    outline: none;
+}
+.form-cmt button{
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    margin: 15px 290px;
+    padding: 0px;
+    color: rgb(253, 251, 251);
+    font-size: 13px;
+    font-weight: bold;
+    background: rgb(253, 210, 47);
+    border: 0px;
+    border-radius: 4px;
+    outline: none;
+}
+.container-product ul.filter-review-item {
+    display: flex;
+    list-style: none;
+}
+.container-product ul.filter-review-item li{
+    font-size: 1.6rem;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: rgb(238, 238, 238);
+    margin: 0 10px;
+    align-items: center;
+    border-radius: 20px;
+}
+.container-product ul.filter-review-item li i{
+    color: rgb(253, 216, 53);;
+}
+.container-product .review-rating__inner{
+    display: flex;
+    margin-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.container-product .review-rating__summary{
+    flex-basis: 144px;
+    flex-shrink: 0;
+    border-right: 1px solid rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.review-rating__point {
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0px 0px 4px;
+}
+
+
+.jucQbJ {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.review-rating__total {
+    margin: 4px 0px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(120, 120, 120);
+}
+.review-rating__detail {
+    padding: 0px 24px;
+}
+.review-rating__level {
+    display: flex;
+    margin: 4px 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1.6rem;
+
+}
+/*  */
+.review-comment__avatar ul{
+    margin-top: 20px;
+    padding: 0;
+}
+.review-comment__avatar ul li{
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    font-size: 1.4rem;
+}
+.review-comment__avatar ul li:first-child{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    overflow: hidden;
+    position: relative;
+}
+.review-comment__avatar ul li:last-child{
+    left: 360px;
+    color: rgb(0, 153, 0);;
+}
+.review-comment__avatar ul li img{
+    width: 133%;
+}
+.review-comment-content{
+    font-size: 1.4rem;
+}
+/*  */
+@media (max-width: 973px){
+    .right{
+        display: none;
+    }
+    .container-product{
+        flex-direction: column;
+        display: flex;
+    }
+    .brand .left{
+        width: 100%;
+    }
+    .brand ul.top-brand{
+        display: none;
+    }
+    .brand-header ul li:first-child{
+        display: none;
+    }
+    .brand-header ul li{
+        width: 100%;
+    }
+    .flash-sale-price span:first-child{
+        font-size: 3rem;
+    }
+    .coupon{
+        display: none;
+    }
+}
+
+
+

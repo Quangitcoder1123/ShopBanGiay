@@ -1,0 +1,9 @@
+body{
+    background-color: tomato;
+    height: 100vh;
+
+}
+.wrapper{
+    width: 100px;
+    margin: 0 auto;
+}
