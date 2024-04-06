@@ -1,6 +1,4 @@
-# SkyMart
-
-HỆ THỐNG SIÊU THỊ ONLINE SKYMART
+# SPSHOP
 
 1.Cài đặt
 git clone <repo>
@@ -15,7 +13,7 @@ npm install
 
 php artisan config:cache
 
-php artisan migrate --seed hoặc import file sql
+php artisan migrate 
 
 2. Sử dụng
 
