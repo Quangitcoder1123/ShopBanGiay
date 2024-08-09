@@ -1,5 +1,5 @@
 # SPSHOP web bán giày.
-
+Công nghệ: Laravel
 1.Cài đặt
 git clone <repo>
 
