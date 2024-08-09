@@ -19,25 +19,25 @@ php artisan migrate
 
 # FUNCTIONALITY OF EACH SECTION
 ## Admin
-Admin Login Functionality: Contains the main functions of the program.
-Customer Account Management: Displays customer information and deletes customer accounts.
-Banner Management: Add, edit, delete banners.
-Product Management: Add, edit, delete products.
-Category Management: Add, edit, delete categories.
-Order Management: View and change the order status.
-Review and Comment Management: View and delete customer comments.
++ Admin Login Functionality: Contains the main functions of the program.
++ Customer Account Management: Displays customer information and deletes customer accounts.
++ Banner Management: Add, edit, delete banners.
++ Product Management: Add, edit, delete products.
++ Category Management: Add, edit, delete categories.
++ Order Management: View and change the order status.
++ Review and Comment Management: View and delete customer comments.
 ## Visiting Customers
-Registration: Register a new account.
-View Products: Browse through the product list.
-Search Products: Search for products using the search function.
-View Details: View detailed information about products.
++ Registration: Register a new account.
++ View Products: Browse through the product list.
++ Search Products: Search for products using the search function.
++ View Details: View detailed information about products.
 ## Member Customers
-Login: Log in to the website.
-Purchase Products: Buy products.
-Comment and Review: Leave comments and reviews on products.
-Update Account Information: Update personal account details.
-View Purchase History: View the history of past orders.
-Cancel Orders: Cancel existing orders.
++ Login: Log in to the website.
++ Purchase Products: Buy products.
++ Comment and Review: Leave comments and reviews on products.
++ Update Account Information: Update personal account details.
++ View Purchase History: View the history of past orders.
++ Cancel Orders: Cancel existing orders.
 
 # WEBSITE INTERFACE:
 ## User:
