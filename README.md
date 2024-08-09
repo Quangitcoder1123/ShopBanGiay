@@ -1,7 +1,7 @@
 # SPSHOP Shoe Store Website
-Technology: Laravel
+## Technology: Laravel
 
-1. Installation
+##  Installation
 git clone <repo>
 
 composer install
